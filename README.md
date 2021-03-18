@@ -1,7 +1,7 @@
 # predictive-displacement-Bayesian-modelling
 Multi-output Bayesian Gaussian Processes
 
-This software is based on GPy toolbox https://github.com/SheffieldML/GPy. 
+This software is based on GPy toolbox https://github.com/SheffieldML/GPy.
 In particular, please refer to the following links:
 https://github.com/SheffieldML/notebook/blob/master/GPy/multiple%20outputs.ipynb
 https://nbviewer.jupyter.org/github/SheffieldML/notebook/blob/master/GPy/coregionalized_regression_tutorial.ipynb
