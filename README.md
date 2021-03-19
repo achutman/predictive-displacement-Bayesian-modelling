@@ -18,13 +18,13 @@ Although the key variable being scored is the UNHCR's refugee and asylum seeker 
 
 Scripts:
 gpUniOutRefugeeAsylumScript.py
-Models multiple time-series data related to displacement and predictors of displacement simultaneously.
+Models multiple time-series data related to displacement and predictors of displacement individually.
 
 gpUniOutRefugeeAsylumScriptFuns.py
 Relevant function definitions
 
 gpMultiOutRefugeeAsylumScript.py
-Models time-series data related to displacement and predictors of displacement individually.
+Models time-series data related to displacement and predictors of displacement simultaneously.
 
 gpMultiOutRefugeeAsylumScriptFuns.py
 Relevant function definitions
