@@ -16,7 +16,7 @@ import xlrd
 
 
 # Select countries based on INFORM index
-pathInform = r'C:\Users\a.manandhar\OneDrive - Save the Children International\Documents\data\INFORM'
+pathInform = r'...'
 dfInform = pd.read_csv(os.path.join(pathInform,'raw','INFORM2020_TREND_2010_2019_v040_ALL_2 INFORMRiskIndex.csv'))
 countries = dfInform.loc[dfInform['2020']>=5,'Iso3'].values
 cntySkip = ['PRK','PNG','PSE','SOM']
@@ -25,9 +25,9 @@ for cnty in countries:
         countries = np.delete(countries,np.where(countries==cnty))
 
 # Outputs saved from gpUniOutRefugeeAsylumScript.py
-pathSaveUni = r'C:\Users\a.manandhar\OneDrive - Save the Children International\Documents\docs\PD phase two model\gaussian process\dataPlots\UNHCR RAstk\timeSepCoregRbfLsFixed3MaxTest2017Nahead1'
+pathSaveUni = r'...'
 # Outputs saved from gpMultiOutRefugeeAsylumScript.py
-pathSaveMulti = r'C:\Users\a.manandhar\OneDrive - Save the Children International\Documents\docs\PD phase two model\gaussian process\dataPlots\UNHCR RAstkMstkRretRAflowRemUfat\timeSepCoregRbfLsFixed3MaxTest2017Nahead1'
+pathSaveMulti = r'...'
 
 YEAR_TEST = 2017
 Y_RAstk_Uni = pd.DataFrame()
