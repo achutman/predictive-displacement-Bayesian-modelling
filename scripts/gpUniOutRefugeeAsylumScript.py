@@ -34,7 +34,7 @@ from sklearn.preprocessing import StandardScaler
 cd <please specify the path to gpUniOutRefugeeAsylumFuns.py>
 
 # Specify path to save plots and learned models
-# pathSave = r'C:\Users\a.manandhar\OneDrive - Save the Children International\Documents\docs\PD phase two model\gaussian process\dataPlots\UNHCR RAstk\timeSepCoregRbfLsFixed3MaxTest2017Nahead1'
+# pathSave = r'...'
 
 # Model parameters
 # Select training and testing years
@@ -57,12 +57,12 @@ SAVE_OPTION = 0
 
 # Read data
 # UNHCR's refugee and asylum seeker stock
-pathUnhcr = r'C:\Users\a.manandhar\OneDrive - Save the Children International\Documents\data\UNHCR\processed'
+pathUnhcr = r'...'
 fileName = 'unhcr_refugees_asylums_origin_Iso3.csv'
 dfRAstk = pd.read_csv(os.path.join(pathUnhcr,fileName),index_col='Iso3').drop('Country',axis=1)
 dfRAstk.columns = dfRAstk.columns.astype(np.int)
 # # UN DESA's migrant stock (i.e. super set including both all migrants, forced or not)
-# pathUndesa = r'C:\Users\a.manandhar\OneDrive - Save the Children International\Documents\data\UN DESA\Migrant Stock\processed'
+# pathUndesa = r'...'
 # fileName = 'UN_MigrantStockByOrigin.csv'
 # dfMstk = pd.read_csv(os.path.join(pathUndesa,fileName))
 # # UNHCR's refugee and asylum seeker flow
@@ -74,18 +74,18 @@ dfRAstk.columns = dfRAstk.columns.astype(np.int)
 # dfRret = pd.read_csv(os.path.join(pathUnhcr,fileName),index_col='Iso3').drop('Country',axis=1)
 # dfRret.columns = dfRret.columns.astype(np.int)
 # # World Bank's remittance inflow
-# pathWB = r'C:\Users\a.manandhar\OneDrive - Save the Children International\Documents\data\World Bank\processed'
+# pathWB = r'...'
 # fileName = 'World Bank Remittance Inflows 2020.csv'
 # dfRemit = pd.read_csv(os.path.join(pathWB,fileName),index_col='Iso3',engine='python').drop('Country',axis=1)
 # dfRemit.columns = dfRemit.columns.astype(np.int)
 # # UCDP fatalities
-# pathUcdp = r'C:\Users\a.manandhar\OneDrive - Save the Children International\Documents\data\UCDP\processed'
+# pathUcdp = r'...'
 # fileName = 'ucdp-ged-201-deaths-best-Iso3-2d.csv'
 # dfUFat = pd.read_csv(os.path.join(pathUcdp,fileName),index_col='Iso3',engine='python')
 # dfUFat.columns = dfUFat.columns.astype(np.int)
 
 # Select countries based on INFORM index. Only consider countries with INFORM risk index >= 5. But the methodology itself applies to any country.
-pathInform = r'C:\Users\a.manandhar\OneDrive - Save the Children International\Documents\data\INFORM'
+pathInform = r'...'
 dfInform = pd.read_csv(os.path.join(pathInform,'raw','INFORM2020_TREND_2010_2019_v040_ALL_2 INFORMRiskIndex.csv'))
 countries = dfInform.loc[dfInform['2020']>=5,'Iso3'].values
 # Skip certain countries for which data is mostly incomplete/missing
