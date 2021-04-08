@@ -17,19 +17,18 @@ The following script models time-series data related to displacement and predict
 Although the key variable being scored is the UNHCR's refugee and asylum seeker stock data, minor modifications can enable scoring the remaining variables as well.
 
 Scripts:
-gpUniOutRefugeeAsylumScript.py
+-gpUniOutRefugeeAsylumScript.py
 Models multiple time-series data related to displacement and predictors of displacement individually.
-
-gpUniOutRefugeeAsylumScriptFuns.py
+- gpUniOutRefugeeAsylumScriptFuns.py
 Relevant function definitions
-
-gpMultiOutRefugeeAsylumScript.py
+- gpMultiOutRefugeeAsylumScript.py
 Models time-series data related to displacement and predictors of displacement simultaneously.
-
-gpMultiOutRefugeeAsylumScriptFuns.py
+- gpMultiOutRefugeeAsylumScriptFuns.py
 Relevant function definitions
 
 Outputs:
 - Detailed outputs comparing the two modelling techniques for Democratic Republic of Congo.
 - Plots comparing the two modeeling techniques for all modelled countries.
 - Spreadsheets consolidating outputs from all modelled countries.
+
+Please also refer to the methodoogy.pdf document.
