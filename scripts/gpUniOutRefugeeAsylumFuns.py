@@ -8,6 +8,9 @@ Contact: William Low, Project Lead, Migration and Displacement Initiative, Save 
 This software is based on GPy toolbox. In particular, please refer to the following links:
 https://github.com/SheffieldML/notebook/blob/master/GPy/multiple%20outputs.ipynb
 https://nbviewer.jupyter.org/github/SheffieldML/notebook/blob/master/GPy/coregionalized_regression_tutorial.ipynb
+
+The script defines modules used in gpUniOutRefugeeAsylumScript.py
+
 """
 import os
 import numpy as np
