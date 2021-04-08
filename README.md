@@ -35,7 +35,7 @@ Outputs:
 - Spreadsheets consolidating outputs from all modelled countries.
 
 Data:
-All data used in this work are publicly available from corresponding original sources
-Processed data will be made available via HDX https://data.humdata.org/, whose link will be updated here soon.
+- All data used in this work are publicly available from corresponding original sources
+- Processed data will be made available via HDX https://data.humdata.org/, whose link will be updated here soon.
 
 Please also refer to the methodoogy.pdf document.
