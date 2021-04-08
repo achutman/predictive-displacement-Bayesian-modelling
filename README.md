@@ -25,6 +25,8 @@ Relevant function definitions
 Models time-series data related to displacement and predictors of displacement simultaneously.
 - gpMultiOutRefugeeAsylumScriptFuns.py
 Relevant function definitions
+- gpUniMultiOutRefugeeAsylumScoreScript.py
+Compares the outputs of uni-output vs. multi-output GP modelling
 
 Outputs:
 - Detailed outputs comparing the two modelling techniques for Democratic Republic of Congo.
