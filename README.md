@@ -4,8 +4,8 @@ Multi-output Bayesian Gaussian Processes
 This software is based on GPy toolbox https://github.com/SheffieldML/GPy.
 
 In particular, please refer to the following links:
-https://github.com/SheffieldML/notebook/blob/master/GPy/multiple%20outputs.ipynb
-https://nbviewer.jupyter.org/github/SheffieldML/notebook/blob/master/GPy/coregionalized_regression_tutorial.ipynb
+- https://github.com/SheffieldML/notebook/blob/master/GPy/multiple%20outputs.ipynb
+- https://nbviewer.jupyter.org/github/SheffieldML/notebook/blob/master/GPy/coregionalized_regression_tutorial.ipynb
 
 The following script models time-series data related to displacement and predictors of displacement, either individually or jointly. The following processed data will be made available in the HDX website. Please refer to updates in the github page for the corresponding links. It is possible to add further relevant time-series datasets.
 - UNHCR's refugee and asylum seeker stock
